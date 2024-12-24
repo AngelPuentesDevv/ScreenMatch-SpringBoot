@@ -124,4 +124,8 @@ public class Serie {
         episodios.forEach(e -> e.setSerie(this));
         this.episodios = episodios;
     }
+
+    public List<Episodio> getEpisodios() {
+        return episodios;
+    }
 }
